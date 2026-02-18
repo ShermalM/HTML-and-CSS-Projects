@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Explore Japan</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        nav {
+            background: lightgray;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 30px;
+            text-align: center;
+        }
+
+        img {
+            width: 30%;
+            margin: 1%;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        footer {
+            background: lightgray;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav>
+    <a href="#home">Home</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#videos">Videos</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- Home Section -->
+<section id="home">
+    <h1>Explore Japan</h1>
+    <p>Discover the beauty and culture of Japan’s most famous destinations.</p>
+</section>
+
+<!-- Pictures Section -->
+<section id="destinations">
+    <h2>Top Destinations</h2>
+
+    <!-- Row 1 -->
+    <img src="media/mount_fuji.jpg" alt="Mount Fuji">
+    <img src="media/fushimi_inari_shrine.jpg">
+    <img src="media/shibuya_crossing.jpg" alt="Shibuya Crossing">
+
+    <!-- Row 2 -->
+    <img src="media/tokyo_tower.jpg" alt="Tokyo Tower">
+    <img src="media/kinkaku-ji_golden_pavilion.jpg" alt="Kinkaku-ji Golden Pavilion">
+    <img src="media/osaka_castle.jpg">
+</section>
+
+<!-- Video Section -->
+<section id="videos">
+    <h2>Video</h2>
+
+    <video width="560" height="315" controls>
+    	<source src="media/video.mp4" type="video/mp4">
+    </video>
+
+</section>
+
+<!-- Contact Form -->
+<section id="contact">
+    <h2>Contact Us</h2>
+
+    <form>
+        <label>Name:</label><br>
+        <input type="text" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" required><br><br>
+
+        <label>Message:</label><br>
+        <textarea rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2026 Explore Japan</p>
+</footer>
+
+</body>
+</html>
